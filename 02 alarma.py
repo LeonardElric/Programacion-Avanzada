@@ -36,9 +36,9 @@ class alarma:
                     luz="si"
                     vibracion="si"
                     ruido="si"
-            movimiento=0
-            while(movimiento=="si"):
-             movimiento=input("¿hay movimiento?\n")
+            movimiento="no"
+            while(movimiento!="si"):
+             movimiento=input("¿hay movimiento? si o no \n")
 
             print("la alarma ha sido ativada, ayudaaaaa\n la alarma esta \n vibrando:", vibracion,"\n", "haciendo ruido:", ruido,"\n", "emitiendo luz:", luz, "\n",
                   "duro", minutos, " minutos activada")
